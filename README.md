@@ -1,3 +1,5 @@
+##我們重新針對台灣的繁體新聞做了訓練，並加入jupyter讓同學較容易跟你們的python code串接，請將整個檔案下載下來，或是更新data_path中的word2id.pkl檔案以及在data_path_save中加入模型1559725764，並將這個tutorial_NER_Traditional_Chinese_Refined_Model.ipynb檔案放在跟main.py同樣位置的資料夾中
+
 ## A simple BiLSTM-CRF model for Chinese Named Entity Recognition
 
 This repository includes the code for buliding a very simple __character-based BiLSTM-CRF sequence labelling model__ for Chinese Named Entity Recognition task. Its goal is to recognize three types of Named Entity: PERSON, LOCATION and ORGANIZATION.
