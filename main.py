@@ -3,7 +3,7 @@ import numpy as np
 import os, argparse, time, random
 from model import BiLSTM_CRF
 from utils import str2bool, get_logger, get_entity
-from data import read_corpus, read_dictionary, tag2label, random_embedding
+from data import read_corpus, read_dictionary, tag2label, random_embedding, vocab_build
 
 
 ## Session configuration
@@ -16,6 +16,7 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.2  # need ~700MB GPU memo
 
 ## hyperparameters
 parser = argparse.ArgumentParser(description='BiLSTM-CRF for Chinese NER task')
+#parser.add_argument('--update_train_data', type=str, default='data_path', help='update training data set')
 parser.add_argument('--train_data', type=str, default='data_path', help='train data source')
 parser.add_argument('--test_data', type=str, default='data_path', help='test data source')
 parser.add_argument('--batch_size', type=int, default=64, help='#sample of each minibatch')
@@ -30,7 +31,7 @@ parser.add_argument('--update_embedding', type=str2bool, default=True, help='upd
 parser.add_argument('--pretrain_embedding', type=str, default='random', help='use pretrained char embedding or init it randomly')
 parser.add_argument('--embedding_dim', type=int, default=300, help='random init char embedding_dim')
 parser.add_argument('--shuffle', type=str2bool, default=True, help='shuffle training data before each epoch')
-parser.add_argument('--mode', type=str, default='demo', help='train/test/demo')
+parser.add_argument('--mode', type=str, default='demo', help='train/test/demo/update')
 parser.add_argument('--demo_model', type=str, default='1521112368', help='model for test and demo')
 args = parser.parse_args()
 
@@ -42,7 +43,6 @@ if args.pretrain_embedding == 'random':
 else:
     embedding_path = 'pretrain_embedding.npy'
     embeddings = np.array(np.load(embedding_path), dtype='float32')
-
 
 ## read corpus and get training data
 if args.mode != 'demo':
@@ -87,6 +87,13 @@ if args.mode == 'train':
     print("train data: {}".format(len(train_data)))
     model.train(train=train_data, dev=test_data)  # use test_data as the dev_data to see overfitting phenomena
 
+##update train_data
+elif args.mode == 'update_training_set':
+	print('update training set')
+	print(train_path)
+	vocab_path = os.path.join('.', args.train_data, 'word2id.pkl')
+	vocab_build(vocab_path,train_path,2)
+	
 ## testing model
 elif args.mode == 'test':
     ckpt_file = tf.train.latest_checkpoint(model_path)
@@ -95,6 +102,7 @@ elif args.mode == 'test':
     model = BiLSTM_CRF(args, embeddings, tag2label, word2id, paths, config=config)
     model.build_graph()
     print("test data: {}".format(test_size))
+	#print("%s" %type(test_path))
     model.test(test_data)
 
 ## demo

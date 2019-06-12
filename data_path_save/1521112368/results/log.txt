@@ -1,0 +1,1252 @@
+2019-02-26 12:01:53,672:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-26 12:01:53,781:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-02-26 12:01:53,781:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-02-26 12:01:53,797:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-02-26 12:01:53,797:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-02-26 12:01:53,812:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-02-26 12:01:53,844:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-02-26 12:01:53,844:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-02-26 12:01:55,364:INFO: =========== testing ===========
+2019-02-26 12:01:55,364:INFO: =========== testing ===========
+2019-02-26 12:01:55,364:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-02-26 12:01:55,364:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-02-26 12:01:55,364:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-02-26 12:01:55,364:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-02-26 12:10:12,404:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-02-26 12:10:12,450:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-02-26 12:10:12,450:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-02-26 12:10:12,450:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-02-26 12:10:12,450:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-02-26 12:10:12,466:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-02-26 12:10:13,951:INFO: =========== testing ===========
+2019-02-26 12:10:13,951:INFO: =========== testing ===========
+2019-02-26 12:10:13,951:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-02-26 12:10:13,951:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-02-26 12:10:13,966:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-02-26 12:10:13,966:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-03 19:33:07,774:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-03 19:33:07,821:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-03 19:33:07,821:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-03 19:33:07,837:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-03 19:33:07,852:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-03 19:33:07,852:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-03 19:33:09,368:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-03 19:33:09,368:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-03 19:33:09,368:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-03 19:33:09,368:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-03 19:42:16,128:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-03 19:42:16,175:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-03 19:42:16,175:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-03 19:42:16,175:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-03 19:42:16,175:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-03 19:42:16,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-03 19:42:17,762:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-03 19:42:17,762:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-03 19:42:17,777:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-03 19:42:17,777:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:25:14,796:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 01:25:14,863:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:25:14,863:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:25:14,873:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:25:14,873:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:25:14,885:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:25:14,885:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:25:14,888:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:25:14,888:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:25:14,889:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:25:14,889:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:25:14,909:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:25:14,909:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:25:16,412:INFO: =========== testing ===========
+2019-03-04 01:25:16,412:INFO: =========== testing ===========
+2019-03-04 01:25:16,412:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:25:16,412:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:25:16,412:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:25:16,412:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:26:15,106:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 01:26:15,201:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:26:15,201:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:26:15,208:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:26:15,208:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:26:15,222:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:26:15,222:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:26:15,223:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:26:15,223:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:26:15,225:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:26:15,225:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:26:15,238:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:26:15,238:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:26:16,762:INFO: =========== testing ===========
+2019-03-04 01:26:16,762:INFO: =========== testing ===========
+2019-03-04 01:26:16,762:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:26:16,762:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:26:16,762:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:26:16,762:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:27:18,934:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 01:27:19,002:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:27:19,002:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 01:27:19,002:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:27:19,002:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:27:19,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 01:27:20,567:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:27:20,567:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 01:27:20,567:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 01:27:20,567:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 14:45:58,869:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='help', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 14:46:24,865:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 14:46:42,935:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 14:46:42,993:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 14:46:42,993:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 14:46:42,999:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 14:46:42,999:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 14:46:43,009:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 14:46:43,009:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 14:46:43,010:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 14:46:43,010:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 14:46:43,011:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 14:46:43,011:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 14:46:43,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 14:46:43,018:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 14:46:44,625:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 14:46:44,625:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 14:46:44,628:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 14:46:44,628:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 14:51:50,404:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 14:51:50,459:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 14:51:50,459:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 14:51:50,465:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 14:51:50,465:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 14:51:50,474:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 14:51:50,474:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 14:51:50,476:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 14:51:50,476:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 14:51:50,477:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 14:51:50,477:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 14:51:50,484:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 14:51:50,484:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 14:51:52,046:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 14:51:52,046:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 14:51:52,049:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 14:51:52,049:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:14:18,803:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:14:18,855:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:14:18,855:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:14:18,860:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:14:18,860:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:14:18,869:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:14:18,869:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:14:18,870:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:14:18,870:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:14:18,870:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:14:18,870:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:14:18,879:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:14:18,879:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:14:20,507:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:14:20,507:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:14:20,518:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:14:20,518:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:21:34,454:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True, update_train_data='update')
+2019-03-04 15:21:34,522:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:21:34,522:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:21:34,530:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:21:34,530:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:21:34,542:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:21:34,542:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:21:34,544:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:21:34,544:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:21:34,545:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:21:34,545:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:21:34,562:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:21:34,562:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:21:36,110:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:21:36,110:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:21:36,120:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:21:36,120:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:27:40,269:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:39:51,741:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:50:50,322:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:57:22,885:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:57:22,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:57:22,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:57:22,964:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:57:22,964:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:57:22,980:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:57:22,980:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:57:22,981:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:57:22,981:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:57:22,982:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:57:22,982:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:57:22,992:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:57:22,992:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:57:24,692:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:57:24,692:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:57:24,703:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:57:24,703:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:57:52,029:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:57:52,094:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:57:52,094:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:57:52,101:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:57:52,101:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:57:52,112:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:57:52,112:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:57:52,112:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:57:52,112:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:57:52,113:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:57:52,113:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:57:52,119:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:57:52,119:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:57:53,669:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:57:53,669:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:57:53,674:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:57:53,674:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:58:27,844:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:58:57,265:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 15:58:57,325:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:58:57,325:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 15:58:57,333:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:58:57,333:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 15:58:57,344:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:58:57,344:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 15:58:57,345:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:58:57,345:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 15:58:57,346:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:58:57,346:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 15:58:57,355:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:58:57,355:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 15:58:58,930:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:58:58,930:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 15:58:58,935:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 15:58:58,935:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:01:50,286:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 16:01:50,350:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:01:50,350:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:01:50,361:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:01:50,361:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:01:50,371:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:01:50,371:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:01:50,372:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:01:50,372:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:01:50,373:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:01:50,373:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:01:50,389:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:01:50,389:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:01:52,177:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:01:52,177:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:01:52,182:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:01:52,182:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:20:41,322:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 16:20:41,382:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:20:41,382:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:20:41,394:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:20:41,394:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:20:41,408:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:20:41,408:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:20:41,410:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:20:41,410:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:20:41,410:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:20:41,410:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:20:41,418:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:20:41,418:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:20:43,005:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:20:43,005:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:20:43,010:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:20:43,010:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:21:00,572:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 16:21:00,636:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:21:00,636:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:21:00,643:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:21:00,643:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:21:00,653:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:21:00,653:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:21:00,654:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:21:00,654:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:21:00,655:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:21:00,655:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:21:00,663:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:21:00,663:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:21:02,263:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:21:02,263:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:21:02,268:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:21:02,268:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:25:07,419:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 16:25:07,483:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:25:07,483:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:25:07,492:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:25:07,492:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:25:07,503:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:25:07,503:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:25:07,505:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:25:07,505:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:25:07,505:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:25:07,505:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:25:07,520:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:25:07,520:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:25:09,336:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:25:09,336:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:25:09,342:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:25:09,342:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:35:51,131:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 16:35:51,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:35:51,191:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 16:35:51,198:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:35:51,198:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 16:35:51,210:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:35:51,210:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 16:35:51,212:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:35:51,212:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 16:35:51,213:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:35:51,213:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 16:35:51,223:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:35:51,223:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 16:35:52,835:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:35:52,835:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 16:35:52,839:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 16:35:52,839:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 17:07:43,441:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 20:19:46,045:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-04 20:19:46,092:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 20:19:46,092:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 20:19:46,107:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-04 20:19:46,123:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 20:19:46,123:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-04 20:19:46,123:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 20:19:46,123:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-04 20:19:47,591:INFO: =========== testing ===========
+2019-03-04 20:19:47,591:INFO: =========== testing ===========
+2019-03-04 20:19:47,591:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 20:19:47,591:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-04 20:19:47,591:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-04 20:19:47,591:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-05 17:06:03,357:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-08 14:19:32,051:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-14 16:17:10,021:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-03-14 16:17:10,143:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-14 16:17:10,143:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-03-14 16:17:10,152:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-14 16:17:10,152:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-03-14 16:17:10,166:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-14 16:17:10,166:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-03-14 16:17:10,168:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-14 16:17:10,168:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-03-14 16:17:10,169:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-14 16:17:10,169:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-03-14 16:17:10,195:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-14 16:17:10,195:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-03-14 16:17:11,774:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-14 16:17:11,774:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-03-14 16:17:11,778:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-03-14 16:17:11,778:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-04-07 22:02:35,875:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-04-07 22:02:35,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-07 22:02:35,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-07 22:02:35,969:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-07 22:02:35,969:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-07 22:02:35,985:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-07 22:02:36,016:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-07 22:02:36,016:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-07 22:02:37,647:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-07 22:02:37,647:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-07 22:02:37,647:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-04-07 22:02:37,647:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-04-07 22:03:48,116:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-04-07 22:03:48,162:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-07 22:03:48,162:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-07 22:03:48,178:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-04-07 22:03:48,194:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-07 22:03:48,194:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-04-07 22:03:48,209:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-07 22:03:48,209:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-04-07 22:03:49,837:INFO: =========== testing ===========
+2019-04-07 22:03:49,837:INFO: =========== testing ===========
+2019-04-07 22:03:49,837:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-07 22:03:49,837:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-04-07 22:03:49,837:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-04-07 22:03:49,837:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-13 19:57:27,162:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-05-13 20:14:57,858:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='update_training_set', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-05-25 00:42:04,104:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-05-25 00:42:04,150:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:42:04,150:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:42:04,162:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:42:04,162:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:42:04,179:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:42:04,179:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:42:04,182:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:42:04,182:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:42:04,185:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:42:04,185:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:42:04,219:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:42:04,219:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:42:05,845:INFO: =========== testing ===========
+2019-05-25 00:42:05,845:INFO: =========== testing ===========
+2019-05-25 00:42:05,845:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:42:05,845:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:42:05,849:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-25 00:42:05,849:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-25 00:43:46,975:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-05-25 00:43:47,029:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:43:47,029:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:43:47,034:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:43:47,034:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:43:47,043:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:43:47,043:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:43:47,044:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:43:47,044:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:43:47,047:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:43:47,047:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:43:47,053:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:43:47,053:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:43:48,599:INFO: =========== testing ===========
+2019-05-25 00:43:48,599:INFO: =========== testing ===========
+2019-05-25 00:43:48,600:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:43:48,600:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:43:48,603:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-25 00:43:48,603:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-25 00:44:28,957:INFO: processed 177232 tokens with 6192 phrases; found: 6058 phrases; correct: 5419.
+2019-05-25 00:44:28,957:INFO: processed 177232 tokens with 6192 phrases; found: 6058 phrases; correct: 5419.
+2019-05-25 00:44:28,958:INFO: accuracy:  98.55%; precision:  89.45%; recall:  87.52%; FB1:  88.47
+2019-05-25 00:44:28,958:INFO: accuracy:  98.55%; precision:  89.45%; recall:  87.52%; FB1:  88.47
+2019-05-25 00:44:28,958:INFO: LOC: precision:  93.31%; recall:  89.16%; FB1:  91.18  2749
+2019-05-25 00:44:28,958:INFO: LOC: precision:  93.31%; recall:  89.16%; FB1:  91.18  2749
+2019-05-25 00:44:28,958:INFO: ORG: precision:  83.57%; recall:  86.78%; FB1:  85.15  1382
+2019-05-25 00:44:28,958:INFO: ORG: precision:  83.57%; recall:  86.78%; FB1:  85.15  1382
+2019-05-25 00:44:28,959:INFO: PER: precision:  88.17%; recall:  85.64%; FB1:  86.88  1927
+2019-05-25 00:44:28,959:INFO: PER: precision:  88.17%; recall:  85.64%; FB1:  86.88  1927
+2019-05-25 00:44:47,332:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-05-25 00:44:47,387:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:44:47,387:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-05-25 00:44:47,393:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:44:47,393:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-05-25 00:44:47,402:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:44:47,402:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-05-25 00:44:47,402:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:44:47,402:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-05-25 00:44:47,403:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:44:47,403:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-05-25 00:44:47,409:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:44:47,409:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-05-25 00:44:48,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:44:48,954:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-05-25 00:44:48,956:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-05-25 00:44:48,956:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-06-11 22:07:02,697:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='1521112368', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.001, mode='demo', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2019-06-11 22:07:02,751:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-06-11 22:07:02,751:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\framework\op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2019-06-11 22:07:02,756:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-06-11 22:07:02,756:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:60: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2019-06-11 22:07:02,766:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-06-11 22:07:02,766:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:64: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2019-06-11 22:07:02,768:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-06-11 22:07:02,768:WARNING: From C:\Users\user\Documents\GitHub\zh-NER-TF\model.py:71: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2019-06-11 22:07:02,769:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-06-11 22:07:02,769:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:443: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2019-06-11 22:07:02,777:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-06-11 22:07:02,777:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\ops\rnn.py:626: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2019-06-11 22:07:04,612:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-06-11 22:07:04,612:WARNING: From C:\Users\user\AppData\Roaming\Python\Python37\site-packages\tensorflow\python\training\saver.py:1266: checkpoint_exists (from tensorflow.python.training.checkpoint_management) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use standard file APIs to check for files with this prefix.
+2019-06-11 22:07:04,612:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
+2019-06-11 22:07:04,612:INFO: Restoring parameters from .\data_path_save\1521112368\checkpoints/model-31680
