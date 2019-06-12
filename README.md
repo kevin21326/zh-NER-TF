@@ -1,4 +1,10 @@
-##我們重新針對台灣的繁體新聞做了訓練，並加入jupyter讓同學較容易跟你們的python code串接，請將整個檔案下載下來，或是更新data_path中的word2id.pkl檔案以及在data_path_save中加入模型1559725764，並將這個tutorial_NER_Traditional_Chinese_Refined_Model.ipynb檔案放在跟main.py同樣位置的資料夾中
+## 使用方法
+
+我們重新針對台灣的繁體新聞做了訓練，並加入jupyter讓同學較容易跟你們的python code串接，請將整個檔案下載下來即可使用。
+
+如果不想，可以更新data_path中的word2id.pkl檔案以及在data_path_save中加入模型1559725764，並將這個tutorial_NER_Traditional_Chinese_Refined_Model.ipynb檔案放在跟main.py同樣位置的資料夾中
+
+你會發現我們重新訓練過的model在找台灣繁體的新聞時準確度比原作者的model還要高，因為原作者是針對檢體字來做訓練的。
 
 ## A simple BiLSTM-CRF model for Chinese Named Entity Recognition
 
